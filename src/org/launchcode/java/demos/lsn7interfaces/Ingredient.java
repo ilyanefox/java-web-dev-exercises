@@ -7,6 +7,7 @@ public abstract class Ingredient {
     private double cost;
     private ArrayList<String> allergens;
 
+
     public Ingredient(String aName, double aCost, ArrayList<String> someAllergens){
         name = aName;
         cost = aCost;
